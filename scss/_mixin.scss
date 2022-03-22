@@ -1,0 +1,32 @@
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@mixin item{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+@mixin item-link{
+  color: $link-color;
+  text-decoration: none;
+}
+@mixin logo-link {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+@mixin logo-img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+@mixin btn-style {
+  margin: 0;
+  padding: 15px 80px;
+  background-color: #1D9BF0;
+  border-radius: 27.5px;
+  color: #fff;
+  font-size: 18px;
+}

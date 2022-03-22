@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Segoe UI Regular","Segoe UI Italic","Segoe UI Bold","Segoe UI Bold Italic", sans-serif;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  position: relative;
+  line-height: 1.2;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+} 
+.twitter-container{
+  width: 1263px;  
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-home{
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-main{
+  width: 653px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-search{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a:hover{
+  color: rgb(29, 161, 242);
+  font-weight: 500;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}

@@ -1,0 +1,66 @@
+.home-page__wrapper{
+  padding-top: 30px;
+  width: 240px;
+  bottom: 40px;
+  scroll-behavior: hidden;
+  overflow-y: scroll;
+  top: 0;
+  position: fixed;
+  box-sizing: border-box
+}
+.home-page__wrapper::-webkit-scrollbar{
+  display: none;
+}
+.home-page__link{
+  @include logo-link;
+  padding-left: 15px;
+}
+.home-page__img{
+  @include logo-img;
+}
+.home-page__button{
+  @include btn-style;
+  margin-top: 30px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.search-page__might-like{
+  padding: 10px 10px;
+  background-color: #F7F9F9;
+}
+.home-page__button:hover{
+  background-color: rgb(1, 56, 77);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.svg-path:hover path{
+  fill: crimson;
+}
+.home-page__profile-bobur{
+  padding-top: 250px;
+  display: flex;
+  align-items: center;
+}
+.home-page__profile-img{
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+}
+.home-page__name{
+  padding-bottom: 2px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+.home-page__name-link{
+  margin-top: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0,0.6);
+}
+.home-page__comma{
+  margin-left: 10px;
+  color: rgba(0, 0, 0,0.7);
+  text-decoration: none;
+}

@@ -1,0 +1,191 @@
+.main-page{
+  position: relative;
+}
+.main-page__bobur-tweets{
+  padding: 25px 25px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgb(185, 185, 185);
+  border-right: 1px solid rgb(185, 185, 185);
+}
+.main-page__name{
+  margin-left: 40px;
+  padding: 2px;
+  display: block;
+  font-weight: 700;
+}
+.main-page__follow-stc{
+  margin-left: 40px;
+  padding: 2px;
+  display: block;
+  color: rgba(0, 0, 0,0.6);
+}
+.main-page__bobur-bgc-div{
+  width: 100%;
+  height: 235px;
+  background-image: url("../../img/bgc-img-b.mavlonov.jpg");
+  background-repeat: no-repeat;
+  background-size: 653px 180px;
+  border-left: 1px solid rgb(185, 185, 185);
+  border-right: 1px solid rgb(185, 185, 185);
+}
+.main-page__fon-img{
+  width: 120px;
+  height: 120px;
+  margin-top: 115px;
+  margin-left: 25px;
+  display: inline-block;
+}
+.main-page__btn-profile{
+  margin-left: 530px;
+  margin-top: -40px;
+  padding: 8px 15px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.main-page__btn-profile:hover{
+  background-color: rgb(1, 56, 77);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.main-page__about-bobur{
+  padding: 25px;
+  padding-bottom: 19px;
+  border-left: 1px solid rgb(185, 185, 185);
+  border-right: 1px solid rgb(185, 185, 185);
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+.main-page__name-bbr{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.main-page__telegram-acc{  
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-page__abutech{
+  font-size: 18px;
+}
+.main-page__abutech-link{
+  color: $link-color;
+  text-decoration: none;
+}
+.main-page__bobur-list{
+  @include list;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-page__item{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.main-page__reeact-link{
+  margin-left: 3px;
+  text-decoration: none;
+  color: $link-color;
+}
+.main-page__reeact-span{
+  margin-right: 20px;
+}
+.main-page__tweet-icon-list{
+  @include list;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-page__tweet-items{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 24px;
+  color: #000000;
+}
+.main-page__tweet-span{
+  padding-bottom: 15px;
+  border-bottom: 3px solid $link-color;
+  font-weight: 700;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #000000;
+}
+.main-page__pinned-tweet{
+  padding: 0 25px;
+  border-left: 1px solid rgb(185, 185, 185);
+  border-right: 1px solid rgb(185, 185, 185);
+}
+.main-page__pinned{
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.main-page__comment-space{
+  display: flex;
+  align-items: top;
+}
+.main-page__bobur-middle-img{
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.main-page__heads{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-page__comma-span{
+  margin: 0;
+  padding: 0;
+  margin-left: 207px;
+}
+.main-page__strong{
+  padding-right: 5px;
+  color: black;
+  font-weight: 700;
+}
+.main-page__content{
+  width: 500px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 24px;
+  color: #000000;
+}
+.main-page__likes-row-list{
+  @include list;
+  display: flex;
+  align-items: center;
+}
+.main-page__likes-item{
+  margin-right: 70px;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+}
+.main-page__reeact-img{
+  margin-right: 5px;
+}
+
+.main-page__hr{
+  width: 651px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: -101px;
+  color: rgb(233, 233, 233);
+}

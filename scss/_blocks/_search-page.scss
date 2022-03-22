@@ -1,0 +1,140 @@
+.search-page{
+  width: 350px;
+  position: fixed;
+  overflow-y: auto;
+  scroll-behavior: hidden;
+  top: 0;
+  left: calc(50% + 280px);
+  bottom: 10px;
+  overflow-y: scroll;
+  box-sizing: border-box
+}
+.search-page::-webkit-scrollbar{
+  display: none;
+}
+.search-page__wrapper{
+  padding: 25px 5px;
+}
+.search-page__label{
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  background-color: #EFF3F4;
+  border-radius: 31px;
+}
+.search-page__input{
+  border: none;
+  background-color: #EFF3F4;
+}
+.search-page__input:focus{
+  background-color: #EFF3F4;
+  outline: none;
+  border: none;
+}
+.search-page__search-img{
+  opacity: 0.5;
+}
+.search-page__image-box{
+  padding-top: 10px;
+}
+.search-page__text{
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.search-page__list-of-followers{
+  @include list;
+}
+.search-page__name{
+  display: block;
+  margin-left: 10px;
+}
+.search-page__account-link{
+  margin-left: 10px;
+}
+.search-page__items{
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.search-page__flw-btn{
+  margin-left: 30px;
+  padding: 8px 18px;
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+}
+.search-page__flw-btn-second{
+  margin-left: 34px;
+  padding: 8px 18px;
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+}
+.search-page__flw-btn-second:hover ,.search-page__flw-btn:hover{
+  background-color: $link-color;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.search-page__link{
+  padding-top: 30px;
+  text-decoration: none;
+  color: $link-color;
+}
+.search-page__might-like{
+  height: 280px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #F7F9F9;
+}
+.search-page__trends-box{
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: #F7F9F9;
+  border-radius: 10px;
+}
+.search-page__content-trend{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-page__trend-list{
+  @include list;
+}
+.search-page__revolution{
+  margin: 0;
+  padding: 0;
+}
+.search-page__trend-item{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+.search-page__trend-germany{
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-page__tweeetts-number{
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-page__revolution{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
